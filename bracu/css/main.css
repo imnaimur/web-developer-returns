@@ -98,11 +98,22 @@ a{
     border: 1px solid #333;
     margin: 50px 20px;
     padding: 10px;
+    border-radius: 5px;
+    border-bottom:5px solid orangered ;
+    border-right:5px solid orangered ;
+    border-top:5px solid navy;
+    border-left:5px solid navy;
 }
 .form-input{
     /* padding-left:50px ; */
-    margin-left:30px ;
-
+    width:250;
+    /* margin-left:30px ; */
+    border:0;
+    border-bottom: 2px #275CAB solid;
+    height: 25px;
+}
+form label{
+    padding-bottom:200px;
 }
 .btn-submit{
     color:#fff;
